@@ -1,0 +1,21 @@
+#panel{
+  margin: 50px 0px 0px 50px;
+  width: 400px;
+  border: 1px solid rgb(228, 84, 233);  
+  max-height: 50px;
+  overflow: scroll; /* Khi mà nội dung bị tràn sẽ hiện thanh cuộn để xem nội dung*/
+  outline: 5px solid rgb(134, 226, 139);
+}
+#left{
+    width: 50px;
+    height: 80px;
+    background-color: aqua;
+    float: right; /*Căn sang phải */
+   
+}
+#delete1{
+    clear: both;
+}
+#delete{
+    clear: both;
+}

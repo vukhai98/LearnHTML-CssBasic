@@ -1,7 +1,12 @@
+body{
+    margin: 0;
+}
 #my_boder{
     width: 1000px;
     height: 200px;
     background-color: rgb(128, 240, 225);
     border: 2px solid red;
     border-radius: 5px;
+    margin: 100px 200px; /*Margin là khoảng các bên ngoài boder của thẻ */
+    padding: 50px 50px; /* Margin là khoảng cách bên trong  boder của thẻ*/
 }
