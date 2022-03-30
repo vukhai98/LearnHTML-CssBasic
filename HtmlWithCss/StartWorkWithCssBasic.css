@@ -1,6 +1,18 @@
+body{
+
+    background: #F00 url(https://cohet.vn/upload/data/images/ANH-NEN-GAME/wallpaper-4k-hinh-nen-4k-cay-coi-do-bong-duoi-ho-nuoc-trong-_y26bi_101302905.jpg) no-repeat 100px 50px;
+    /*background-color: #F00;
+    background-image: url(https://cohet.vn/upload/data/images/ANH-NEN-GAME/wallpaper-4k-hinh-nen-4k-cay-coi-do-bong-duoi-ho-nuoc-trong-_y26bi_101302905.jpg);
+    background-size: contain;*/ /* đảm bảo rằng ảnh là đầy đủ còn để cover là ảnh sẽ bảo hết nội dung */
+    /*background-repeat: no-repeat; /* Hình ảnh background không được lặp lại*/  
+    /*background-position: 50px 80px; /* Vị trí mà mà bắt đầu đặt image so với thẻ element hiện tại  */
+    /*background-attachment: fixed;  /* ảnh như là 1 phần của nội dung khi scroll nội dung hình back ground ko thay đổi */
+    /*Nếu để là scroll thì nó sẽ tự dộng  roll theo nội dung*/
+    
+}
 #div1{
-    width: 200px;
-    height: 500px;
+    width: 300px;
+    height: 1000px;
     background-color:#f90 ;
     position: relative;/* Mốc là vị trí element ban đầu so với lúc chưa đăt tọa độ*/
     left: 100px;

@@ -1,0 +1,7 @@
+#my_boder{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(128, 240, 225);
+    border: 2px solid red;
+    border-radius: 5px;
+}
