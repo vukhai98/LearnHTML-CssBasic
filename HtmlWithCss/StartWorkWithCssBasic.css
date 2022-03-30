@@ -1,0 +1,27 @@
+#div1{
+    width: 200px;
+    height: 500px;
+    background-color:#f90 ;
+    position: relative;/* Mốc là vị trí element ban đầu so với lúc chưa đăt tọa độ*/
+    left: 100px;
+    top: 100px;
+    z-index: 4;
+}
+#div2{
+    width: 200px;
+    height: 500px;
+    background-color:#0C3 ;
+    position: absolute; /* Mốc luôn là so với tọa độ gốc của trang html */
+    left: 180px;
+    top: 150px;
+    z-index: 6;
+}
+#div3{
+    width: 200px;
+    height: 200px;
+    background-color:#F00 ;
+    position: fixed; /* luôn hiện ở ngoài cùng và cố dịnh theo màn hình display */
+    left: 150px;
+    top: 120px;
+    z-index: 1000;
+}
